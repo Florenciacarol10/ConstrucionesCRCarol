@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Oooh+Baby&family=Poppins:wght@600&family=Roboto:wght@100&family=Sedgwick+Ave&display=swap');
+
+*{
+    padding: 0;
+    margin:0;
+}
+
+
+.body{
+    text-align: center;
+    font-family: 'Poppins',sans-serif;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    min-height: 50vh;
+}
+
+.fondoNav{
+    background-color: aquamarine;
+}
+
+
+
+p {
+    background-color: #f2f0fa;
+    display: block;
+    margin-block-start: 4em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+a{
+    color:  rgb(176, 200, 221);
+    text-decoration: none;
+}
+
+
+
+
+footer{
+    padding: 3em;
+    background-color: #e5f1ef;
+    margin-top: 1.5em;
+    margin-bottom: 0;
+    ;
+}
+
+
+
+
+.padre{
+    background-color:  rgb(72, 124, 170);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap:15px;
+    justify-items:center;
+}
+
+
+
